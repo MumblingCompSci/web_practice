@@ -1,0 +1,27 @@
+#skills h4 {
+    margin: 0;
+    padding: 1px;
+}
+
+#skills > section > ul {
+    margin: 2px;
+    border: 1px;
+    border-style: dotted;
+}
+#skills section {
+    width: 100%;
+}
+#skills ul {
+    list-style-type: none;
+}
+
+body > section {
+    /* width: 300px; */
+    width: max-content;
+    margin: 2px;
+    padding: 2px;
+    /* float: right; */
+    border: 1mm;
+    border-color: black;
+    border-style: solid;
+}
