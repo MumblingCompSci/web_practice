@@ -1,27 +1,31 @@
-#skills h4 {
-    margin: 0;
-    padding: 1px;
-}
-
-#skills > section > ul {
-    margin: 2px;
-    border: 1px;
-    border-style: dotted;
-}
-#skills section {
-    width: 100%;
-}
-#skills ul {
-    list-style-type: none;
-}
-
-body > section {
-    /* width: 300px; */
+body {
     width: max-content;
+    margin: auto;
+}
+
+#skills {
+    width: max-content;
+    border: 1vmin;
+    border-style: solid;
+    border-color: firebrick;
+}
+
+#skills > section {
+    box-sizing: border-box;
     margin: 2px;
     padding: 2px;
-    /* float: right; */
-    border: 1mm;
-    border-color: black;
+    display: table;
+    min-width: max-content;
+    width: inherit;
+    border: 2px;
     border-style: solid;
+    border-color: darkcyan;
+}
+
+#skills h4, #skills ul {
+    margin: 0px;
+}
+
+#skills ul {
+    list-style-type: none;
 }
