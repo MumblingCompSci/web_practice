@@ -1,0 +1,17 @@
+#main {
+    background-color: aquamarine;
+}
+
+#content-container {
+    background-color: rgb(165, 203, 209);
+}
+
+#skills-and-learning > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#programming-list {
+    list-style-type: none;
+    padding-left: 15px;
+}
