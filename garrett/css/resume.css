@@ -4,6 +4,10 @@
     padding-left: 0;
 }
 
+#skills-and-learning h4 {
+    color:#3c87aa
+}
+
 #programming-list {
     list-style-type: none;
     padding-left: 15px;
