@@ -1,9 +1,4 @@
 
-#skills-and-learning {
-    border-style: dotted;
-    border-color: black;
-}
-
 #skills-and-learning > ul {
     list-style-type: none;
     padding-left: 0;
@@ -14,13 +9,22 @@
     padding-left: 15px;
 }
 
-#work-and-school {
-    border-style: dotted;
-    border-color: black;
-}
 
 .position-title{
     font-weight: bold;
+}
+
+.position-company {
+    color: #22c0e8;
+    font-weight: bold;
+}
+
+.position-duration {
+    color: rgb(158, 158, 158);
+}
+
+.job-description {
+    font-size: 11pt;
 }
 
 ul.timeline {
