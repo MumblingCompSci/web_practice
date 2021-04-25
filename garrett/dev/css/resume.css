@@ -1,4 +1,6 @@
 
+
+
 #skills-and-learning > ul {
     list-style-type: none;
     padding-left: 0;
@@ -66,3 +68,12 @@ ul.timeline > li:before {
     font-size: 11pt;
     color: rgb(102, 102, 102);
 }
+
+/* DEVELOPMENT WARNING BORDER */
+body {
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+
+/*===========================*/
